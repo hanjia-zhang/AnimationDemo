@@ -1,6 +1,6 @@
 extends Area2D
 
-var active = false
+var active = false 
 var cancraft = false
 var message = false
 
@@ -10,9 +10,6 @@ func _process(delta):
 	$Button.visible = active
 	$message.visible = message
 	
-
-
-
 func _on_craftingtable_body_entered(body):
 	if body.name == 'PlayerControl' && cancraft == true:
 		active = true
