@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1675896945.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi, there, I just broke my id card, if you want to pass that door, go and make a new one"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1675897001.json",
+		"name": "timeline-1"
+	}
+}

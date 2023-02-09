@@ -18,4 +18,4 @@ func _on_Door2_body_entered(body):
 func _on_Door_Animation2_animation_finished(anim_name):
 	if anim_name == "Open":
 		block.disabled == true
-		get_tree().change_scene("res://Scenes/MainMenu.tscn")
+		get_tree().change_scene("res://Scenes/ThirdLevel.tscn")

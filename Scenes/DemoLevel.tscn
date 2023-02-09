@@ -132,7 +132,7 @@ script = ExtResource( 5 )
 
 [node name="PlayerSprites" parent="YSort/Player" index="1"]
 animation = "IdleUp"
-frame = 1
+frame = 2
 
 [node name="AnimationPlayer" parent="YSort/Player" index="3"]
 anims/LevelTwo = SubResource( 1 )
